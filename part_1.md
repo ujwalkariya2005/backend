@@ -198,7 +198,7 @@ Note: `CommonJS` is still important to know because many older Node.js libraries
 
 > What is a `Proxy`?
 - Simple Analogy: Think of a restaurant host or a middleman. Instead of customers walking straight into the private kitchen or talking directly to the head chef, they hand their order to the host. The host takes it to the kitchen, brings back the food, and shields the inner kitchen details from the public.
-- Simple Definition: An intermediary server or software that sits between a client and a destination server, forwarding requests and responses while hiding network details, managing traffic routing, or bypassing local restrictions during development.
+- Simple Definition: An intermediary server (middleman) or software that sits between a client and a destination server, forwarding requests and responses while hiding network details, managing traffic routing, or bypassing local restrictions during development.
 
 > What is `Mongoose`?
 - Simple Analogy: Think of `Mongoose` like a strict construction inspector and translator standing between your app and the raw database. MongoDB is flexible and lets you store data however you want, but Mongoose enforces strict rules (schemas), checks your data types, validates required fields, and makes sure your data is clean before it ever gets saved to the database.
@@ -208,7 +208,7 @@ Note: `CommonJS` is still important to know because many older Node.js libraries
 1. `Blueprint` - A master template or plan that defines the structure, data, and behavior of an object before it is actually built.
 e.g.: Think of a `blueprint` like an architectural floor plan for a house. It is the master plan that dictates the layout, dimensions, and rules of what you are going to build before a single brick is laid.
 
-2. `Schema` - In databases and software (like Mongoose), a schema is a structural blueprint that defines the shape of documents within a collection—setting data types, validation rules, default values, and required fields.
+2. `Schema` - In databases and software (like Mongoose), a `schema` is a structural blueprint that defines the shape of documents within a collection-setting data types, validation rules, default values, and required fields.
 e.g.: Think of a `schema` like a strict official government registration form or a job application checklist. It explicitly defines what fields must be filled out (e.g., *Name must be text*, *Age must be a number*, *Email is required*) and rejects any application that breaks those rules.
 
 3. `Wrapper` - In software development, a `wrapper` is a piece of code, class, or function that "wraps around" an underlying, complex set of raw rules or data, giving you a simpler, cleaner, and more powerful set of tools to work with.

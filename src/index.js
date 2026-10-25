@@ -2,7 +2,8 @@
 require('dotenv').config()
 
 // import the express package to create our web server application
-const express = require('express')  // or you may use `import express from 'express'` which is a modern standard
+import express from 'express'  // esm/module method to import (modern standard)
+// or you may use `const express = require('express')` which is a traditional method
 
 // create an express application instance (our core server engine)
 const app = express()
@@ -22,4 +23,4 @@ app.get('/ujwal', (req, res) => {
 app.listen(process.env.PORT, () => {
   // print a confirmation message in the terminal once the server is successfully running
   console.log(`example app listening on port ${port}`)
-})
+}) 
