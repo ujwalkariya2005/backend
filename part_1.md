@@ -238,3 +238,4 @@ The blueprint/schema is the official store policy rulebook, but this desk is the
 
 > Why `{timestamps: true}` is Important?
 *Ans*: It tells Mongoose to automatically maintain two fields for every document: `createdAt` (when the record was first saved) and `updatedAt` (when it was last modified).
+
